@@ -10,7 +10,813 @@ ul {
     list-style-type: none;
 }
 
-/* @font-face {
-    font-family: ;
-    src: url("");
-} */
+@font-face {
+    font-family: Poppins;
+    src: url("../webfonts/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("../webfonts/FutstencilSerif.ttf");
+}
+
+@font-face {
+    font-family: Apercu;
+    src: url("../webfonts/Apercu\ Pro\ Light.otf");
+}
+
+/* Header Starts Here */
+
+.top-header {
+    font-family: Poppins;
+    background-color: #000;
+}
+
+nav .navbar-brand img {
+    width: 160px;
+}
+
+.navbar-toggler {
+    border: 2px solid #ed1c24 !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+.navbar-toggler-icon i {
+    padding-top: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff !important;
+    padding: 10px 20px !important;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns .getBtn {
+    font-size: 15px;
+    margin: 0px 10px;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns .getBtn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns .orderBtn {
+    color: #fff;
+    font-size: 15px;
+    margin: 0px 5px;
+    font-weight: 600;
+    padding: 12px 10px;
+    border-radius: 30px;
+    border: 2px solid #ed1c24;
+    background-color: #ed1c24;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns .orderBtn:hover {
+    color: #ed1c24;
+    background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse .navBtns .orderBtn i {
+    padding: 5px;
+    color: #ed1c24;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link::after {
+    width: 0;
+    left: 18px;
+    height: 2px;
+    content: "";
+    bottom: -3px;
+    position: absolute;
+    background-color: #ed1c24;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 75%;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ed1c24 !important;
+}
+
+/* Header Ends Here */
+
+
+/* Welcome to Salt'n Pepper Starts */
+.welcome-slider {
+    color: #fff;
+    padding: 90px 0px;
+    text-align: center;
+    background-color: #000;
+}
+
+.welcome-slider .wel-title {
+    font-size: 38px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-family: Apercu;
+}
+
+.welcome-slider .wel-title span {
+    font-family: Futura;
+    font-size: 50px;
+}
+
+.welcome-slider .para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Apercu;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-slider .brands-card {
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.welcome-slider a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-slider .order-btn {
+    color: #fff;
+    font-weight: 600;
+    padding: 13px 40px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.welcome-slider .order-btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Welcome to Salt'n Pepper Ends */
+
+/* Franchises Section Starts  */
+.franchise-container {
+    padding: 70px;
+    position: relative;
+    background-color: #0F0F0F;
+}
+
+.franchise-container>img {
+    top: 50px;
+    right: 20px;
+    position: absolute;
+}
+
+.franchise-container .franchise-parent .franchise-header {
+    margin-bottom: 30px;
+}
+
+.franchise-container .franchise-parent .franchise-header h3 {
+    color: #fff;
+    font-size: 50px;
+    font-family: Futura;
+}
+
+.franchise-container .franchise-parent .franchise-header h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-family: Apercu;
+    margin-bottom: 10px;
+}
+
+.franchise-container .franchise-parent .franchise-header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Apercu;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.franchise-container .franchise-parent .location {
+    margin-bottom: 40px;
+}
+
+.franchise-container .franchise-parent .location p {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.franchise-container .franchise-parent .location h2 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 38px;
+    font-family: Apercu;
+    margin-bottom: 20px;
+}
+
+.franchise-container .franchise-parent .location h2 span {
+    color: #fff;
+    font-size: 32px;
+    font-family: Futura;
+}
+
+.franchise-container .franchise-parent .location ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.franchise-container .franchise-parent .location ul li {
+    margin-bottom: 20px;
+}
+
+.franchise-container .franchise-parent .location ul li i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.franchise-container .franchise-parent .location ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    font-family: Apercu;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.franchise-container .franchise-parent .location .dirBtn {
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 15px;
+    border-radius: 30px;
+    font-family: Poppins;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.franchise-container .franchise-parent .location .dirBtn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.franchise-container .franchise-parent .location .dirBtn:hover i {
+    color: #fff;
+    background-color: #ED1C24;
+}
+
+.franchise-container .franchise-parent .location .dirBtn i {
+    padding: 4px 5px;
+    color: #ED1C24;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* Franchises Section End */
+
+
+/* Express Franchises Starts */
+
+.express-franchises {
+    padding: 70px 0px;
+    background-color: #000;
+}
+
+.express-franchises .franchises-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/p1.webp");
+}
+
+.express-franchises .express-header h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: Futura;
+}
+
+.express-franchises .express-header p {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-family: Apercu;
+    margin-bottom: 10px;
+}
+
+.express-franchises .small {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+
+.express-franchises .location-adress h2 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-family: Apercu;
+    margin-bottom: 10px;
+}
+
+.express-franchises .location-adress h2 span {
+    color: #fff;
+    font-size: 28px;
+    font-family: Futura;
+}
+
+.express-franchises .location-adress ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.express-franchises .location-adress ul li {
+    margin-bottom: 15px;
+}
+
+.express-franchises .location-adress ul li i {
+    color: #fff;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.express-franchises .location-adress ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-style: normal;
+    font-family: Apercu;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.express-franchises .location-adress .dirBtn {
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 15px;
+    border-radius: 30px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.express-franchises .location-adress .dirBtn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.express-franchises .location-adress .dirBtn:hover i {
+    color: #fff;
+    background-color: #ED1C24;
+}
+
+.express-franchises .location-adress .dirBtn i {
+    padding: 4px 5px;
+    color: #ED1C24;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* Express Franchises Ends */
+
+/* Express Franchises (Opening Soon) Starts */
+
+.express-franchise {
+    background-color: #000;
+}
+
+.express-franchise .franchise-header h1 {
+    font-weight: 700 !important;
+}
+
+.express-franchise .franchise-header h1 span {
+    font-size: 27px;
+}
+
+.express-franchise .franchise-parent .opening-soon .card {
+    padding: 20px 50px;
+}
+
+.express-franchise .franchise-parent .opening-soon .card img {
+    width: 60px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.express-franchise .franchise-parent .opening-soon .card p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #ED1C24;
+    line-height: 12px;
+    font-style: normal;
+    text-align: center;
+    font-family: Apercu;
+    margin-bottom: 15px;
+    display: inline-block;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+}
+
+.express-franchise .franchise-parent .opening-soon .card h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 34px;
+    font-style: normal;
+    font-family: 'fangsong';
+}
+
+.express-franchise .franchise-parent .opening-soon .card h3 span {
+    font-size: 27px;
+    font-weight: 800;
+    font-family: Apercu;
+}
+
+/* Express Franchises (Opening Soon) Ends */
+
+.item-carousel {
+    padding: 50px 0px;
+    background-color: #000;
+}
+
+.item-carousel .carousel-header h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-family: 'Butler';
+}
+
+/* Footer Start */
+
+.footer {
+    color: #fff;
+    padding: 40px 0px;
+    background-color: #111;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .firstDiv a,
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+    font-family: Apercu;
+    padding-bottom: 20px;
+    letter-spacing: 0.03em;
+    margin: 0px !important;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .firstDiv a {
+    padding-bottom: 0px !important;
+}
+
+.footer h5 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 25px;
+    font-family: 'Butler';
+}
+
+.footer .secondDiv ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 37px;
+    font-family: 'Apercu';
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .thirdDiv ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    font-family: 'Apercu';
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .thirdDiv h6 {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #ED1C24;
+    justify-content: center;
+}
+
+.footer .fourthDiv img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Footer End */
+
+/* Extra Small devices (portrait phones, 0px and up) */
+@media (max-width: 575.98px) {
+    .franchise-container {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card {
+        padding: 10px 5px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card h3 span {
+        font-size: 20px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card h3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card img {
+        width: 40px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
+
+    .item-carousel {
+        padding: 10px 0px;
+        background-color: #000;
+    }
+
+    .footer .para-center {
+        text-align: center;
+    }
+
+    .welcome-slider {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .welcome-slider .wel-title span {
+        font-size: 30px;
+    }
+
+    .welcome-slider .wel-title {
+        font-size: 27px;
+    }
+
+    .welcome-slider .brands-card {
+        margin-bottom: 13px !important;
+    }
+
+    .welcome-slider a {
+        margin-bottom: 20px !important;
+    }
+
+    .welcome-slider .order-btn {
+        padding: 8px 25px;
+    }
+
+    .franchise-container .franchise-parent .franchise-header h3 {
+        font-size: 30px;
+    }
+
+    .franchise-container .franchise-parent .franchise-header h1 {
+        font-size: 27px;
+    }
+
+    .franchise-container .franchise-parent .reverse {
+        display: flex;
+        margin-bottom: 0px;
+        text-align: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .franchise-container .franchise-parent .location {
+        margin-bottom: 0px;
+    }
+
+    .franchise-container .franchise-parent .location p {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .franchise-container .franchise-parent .location .text {
+        text-align: center;
+    }
+
+    .franchise-container .franchise-parent .location .dirBtn {
+        margin-bottom: 15px;
+    }
+
+    .express-franchises .express-header h1 {
+        font-size: 30px;
+    }
+
+    .express-franchises .express-header p {
+        font-size: 28px;
+    }
+
+    .express-franchises .small {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .express-franchises .location-adress .dirBtn {
+        margin-bottom: 15px;
+    }
+
+    .express-franchises {
+        padding: 30px 0px;
+        background-color: #000;
+    }
+
+    .express-franchise .franchise-header h1 span {
+        font-size: 19px;
+    }
+
+    .item-carousel .carousel-header h2 {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .footer .firstDiv {
+        margin-bottom: 20px;
+    }
+
+    .footer h5 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer .thirdDiv h6 {
+        font-size: 19px;
+    }
+
+    .footer {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .franchise-container>img {
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .franchise-container {
+        padding: 40px 0px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card {
+        padding: 15px 20px;
+    }
+
+    .express-franchise .franchise-parent .opening-soon .card h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .welcome-slider {
+        padding: 35px 0px;
+    }
+
+    .welcome-slider .order-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .welcome-slider .brands-card {
+        margin-bottom: 20px !important;
+    }
+
+    .welcome-slider .wel-title span {
+        font-size: 40px;
+    }
+
+    .welcome-slider .wel-title {
+        font-size: 40px;
+    }
+
+    .franchise-container .franchise-parent .franchise-header h3,
+    h1 {
+        font-size: 40px;
+    }
+
+    .franchise-container .franchise-parent .franchise-header p {
+        font-size: 15px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .express-franchise .franchise-parent .opening-soon .card {
+        min-height: 290px;
+    }
+}
+
+/* Extra Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .express-franchise .franchise-parent .opening-soon .card {
+        min-height: 256px;
+        max-height: 300px;
+    }
+}
+
+/* Extra Extra Large devices (very large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Your styles here */
+}
